@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&family=Pacifico&family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  background-image: url("https://source.unsplash.com/1600x900/?computer,musical instrument,gym,books");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.head {
+  display: block;
+}
+.head h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  background-color: rgba(0, 0, 0, 0.658);
+  color: rgb(255, 255, 255);
+  font-family: "Pacifico", cursive;
+  padding: 5% 0%;
+  flex-wrap: wrap;
+  
+}
+.maincontent {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.658);
+  padding: 3% 0%;
+    transition: 1s ease-in-out;
+}
+.maincontent h1 {
+    flex-wrap: wrap;
+  font-size: 35px;
+  font-family: "Pacifico", cursive;
+  text-transform: capitalize;
+  animation-name: vikas1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes vikas1 {
+  from {
+    font-size: 0px;
+  }
+  to {
+    font-size: 45px;
+  }
+}
+.maincontent:hover {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: "Pacifico", cursive;
+  background-color: rgba(0, 0, 0, 0.658);
+  color: rgb(255, 255, 255);
+  padding: 3% 0%;
+  flex-wrap: wrap;
+  transition: 1s ease-in-out;
+}
+.bigbox {
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+  margin: 3% 4%;
+  padding: 0% 0% 25% 0%;
+  color: red;
+  font-family: "Pacifico", cursive;
+  display: flex;
+  font-size: 3pc;
+}
+.para h1 {
+  color: red;
+  justify-content: center;
+  display: flex;
+  font-size: 3pc;
+}

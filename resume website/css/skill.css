@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.829);
+    margin: 0% 0% 0% 0%;
+    padding: 10% 1% 10% 1%;
+    background-image: url(https://source.unsplash.com/1600x900/?books);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#head-name {
+    display: flex;
+    font-size: 82px;
+    justify-content: center;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: capitalize
+}
+#header:hover {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+.main-heading {
+    display: flex;
+    margin: 0% 0% 0% 0%;
+    font-size: 55px;
+    font-weight: bolder;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.74);
+}
+.main-heading:hover:hover {
+    display: flex;
+    margin: 0% 0% 0% 0%;
+    font-size: 64px;
+    font-weight: bolder;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: serif;
+    text-align: center;
+    color: rgba(253, 236, 0, 0.74);
+}
+.para-h1{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+   
+
+}
+.eligibility{
+
+    display: flex;
+    margin: 0% 0% 0% 0%;
+    font-size: 55px;
+    font-weight: bolder;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.74);
+}
+.eligibility:hover{
+
+    display: flex;
+    margin: 0% 0% 0% 0%;
+    font-size: 64px;
+    font-weight: bolder;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: serif;
+    text-align: center;
+    color: rgba(253, 0, 219, 0.74);
+}
+.footer{
+    display: flex;
+    padding: 5% 5% 5% 5%;
+    display: flex;
+    justify-content: center;
+    background-color: #0000009e;
+    margin: 5% 0% 5% 0%;
+}
+.footer h1{
+    display: inline;
+    font-size: 14px;
+    font-family: auto;
+}
+.btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 0% 0% 41%;
+    background: none;
+    border: none;
+}
+#btn a{
+    display: flex;
+    text-decoration: none;
+    background-color: none;
+    font-size: 15px;
+    border: none;
+    margin: 10% 0% 0% 11%;
+    cursor: pointer;
+    color: black;
+}
+#btn a:hover{
+    display: flex;
+    text-decoration: none;
+    background-color: none;
+    font-size: 15px;
+    border: none;
+    margin: 10% 0% 0% 11%;
+    cursor: pointer;
+    color: rgb(4, 0, 255);
+}
